@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/rounded_corner">
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteTitle"
+        android:text="Note Title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginVertical="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteContent"
+        android:text="Content"
+        android:textColor="@color/DarkHint"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginVertical="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTime"
+        android:text="timeStap"
+        android:textColor="@color/DarkHint"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:gravity="right"
+        android:layout_marginVertical="4dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShare"
+        android:layout_gravity="end"
+        android:src="@drawable/baseline_share_24"
+        app:tint="@color/Additional" />
+
+
+
+
+
+
+</LinearLayout>

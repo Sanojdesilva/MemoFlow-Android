@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910703763040",
+    "project_id": "memoflow-3150a",
+    "storage_bucket": "memoflow-3150a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910703763040:android:f2ad16e6a8dddea328ad05",
+        "android_client_info": {
+          "package_name": "Mobile.memoflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZpov7_SD-qeP0BUvqJ8HivDQjjXYHJv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

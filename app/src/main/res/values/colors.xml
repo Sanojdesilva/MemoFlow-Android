@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#FFC107</color>
+    <color name="Secondary">#337A35</color>
+    <color name="Hint">#BFBFBF</color>
+    <color name="DarkHint">#7C7A7A</color>
+    <color name="Additional">#00C808</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F60000</color>
+    <color name="Notify">#3F51B5</color>
+</resources>

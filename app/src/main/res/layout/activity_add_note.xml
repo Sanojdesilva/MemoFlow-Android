@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary"
+    android:padding="16dp"
+    tools:context=".AddNoteAct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleAndDone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Pagetitle"
+            android:text="Add new Note"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            />
+        
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/saveNoteBtn"
+            android:src="@drawable/baseline_cloud_done_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/white" />
+
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_margin="26dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corner"
+        android:layout_below="@+id/TitleAndDone">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notesTitleText"
+            android:hint="Enter Title"
+            android:textColorHint="@color/Hint"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginVertical="8dp"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contenttext"
+            android:hint="Content"
+            android:textColorHint="@color/Hint"
+            android:gravity="top"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:minLines="18"
+            android:layout_marginVertical="8dp"
+            android:padding="12dp"
+            android:textColor="@color/black"/>
+
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/deleteBtn"
+        android:src="@drawable/baseline_delete_forever_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:tint="@color/red" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/ReminderButton"
+        android:src="@drawable/baseline_punch_clock_24"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:tint="@color/Notify" />
+
+
+</RelativeLayout>
